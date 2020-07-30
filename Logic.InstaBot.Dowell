@@ -11,4 +11,10 @@ import csv(to fetch the CSV file, CSV file should only contain the target instag
 Enter the Username and Password of your instagram
 run the code.
 A new browser window will open 
-The bot will login (bot will take some time before login, to insure that everything is loaded 
+The bot will login (Bot will take some time before login, to insure that everything is loaded)
+After login Bot will sleep for some time
+After 60sec Bot will pick the first Username from the given CSV file and it will navigate to the taraget User.
+After opneing the target user profile Bot will again sleep for 60sec 
+After 60sec Bot will follow the target user and will sleep for 60sec before going to the next user in the CSV file.
+The Bot will Continue doing this untill instagram gives an Alert (Can not follow right now wait for sometime)
+When Bot get stopped wait for 30min and again try to run the Bot.
