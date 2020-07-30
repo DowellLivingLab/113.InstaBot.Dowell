@@ -77,7 +77,9 @@ class InstagramBot:
 
 
 if __name__ == '__main__':
-    ig_bot = InstagramBot('krishanam_', '8726065467')
+    ig_bot = InstagramBot('Username', 'Password')
+    #write your instagram username in 'Username'
+    #write your intagram password in 'Password'
 
 
     myfile = open('Searchmybio.csv')
