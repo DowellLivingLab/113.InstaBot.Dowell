@@ -1,1 +1,14 @@
-
+Requirements:   Python
+                Webdriver(Googlechrome webdrive or Firefox webdriver) 
+                #Googlechrome webdriver for Google Chrome 
+                #Firefox webdriver for Mozila Firefox
+                #The Webdriver's should be in the same folder with the python file or put the Webdriver anywhere and give the path of the file in the "self.driver"
+                #Selenium Webdriver for Python (install it on Python using pip install selenium webdriver
+                
+import webdriver from selenium (To access the web browser)
+import time (to make Device sleep to avoid getting spam block, To load everything properly)
+import csv(to fetch the CSV file, CSV file should only contain the target instagram username)
+Enter the Username and Password of your instagram
+run the code.
+A new browser window will open 
+The bot will login (bot will take some time before login, to insure that everything is loaded 
