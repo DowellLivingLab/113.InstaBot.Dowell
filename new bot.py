@@ -1,4 +1,5 @@
 from selenium import webdriver
+#import webdriver from selenium (To access the web browser)
 import os
 import time
 import csv
