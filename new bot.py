@@ -46,7 +46,7 @@ class InstagramBot:
         time.sleep(5)
         self.driver.get('{}/{}/'.format(self.base_url, user))
         #self.driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/header/div/div').get_attribute('aria-disabled') #to check there is story or not on profile
-        #S = lambda X: self.driver.execute_script('return document.body.parentNode.scroll'+X)
+        S = lambda X: self.driver.execute_script('return document.body.parentNode.scroll'+X)
         self.driver.set_window_size(S('Width = 425'),S('Height = 1134')) # For taking ScreenShot of the Page (May need manual adjustment)                                                                                                                
         self.driver.find_element_by_tag_name('body').screenshot('web_screenshot.png') 
 
