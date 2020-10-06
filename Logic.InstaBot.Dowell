@@ -18,3 +18,4 @@ After opneing the target user profile Bot will again sleep for 60sec
 After 60sec Bot will follow the target user and will sleep for 60sec before going to the next user in the CSV file.
 The Bot will Continue doing this untill instagram gives an Alert (Can not follow right now wait for sometime)
 When Bot get stopped wait for 30min and again try to run the Bot.
+ScreenShot will be taken when Navigating to a User
